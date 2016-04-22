@@ -1,12 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Oscar
- * Date: 2016-04-05
- * Time: 12:50
- */
+
 session_start();
-require "./views/details.php";
+require "details.php";
 require "./views/head.php";
 
 $page="index";

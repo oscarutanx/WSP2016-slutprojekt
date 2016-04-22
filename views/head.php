@@ -14,7 +14,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- egen css -->
-    <link rel="stylesheet" href="stylesheet.css">
+    <!-- <link rel="stylesheet" href="stylesheet.css"> -->
 
 
     <!-- Optional theme -->
@@ -40,7 +40,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="./index.php?page=friends">Friends hehehehe</a></li>
+                <li><a href="./index.php?page=friends">Friends</a></li>
                 <li><a href="./index.php?page=mywall">My Wall</a></li>
 
             </ul>

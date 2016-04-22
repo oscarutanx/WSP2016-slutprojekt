@@ -6,7 +6,7 @@
  * Time: 12:50
  */
 session_start();
-/**require "./views/details.php";*/
+require "./views/details.php";
 require "./views/head.php";
 
 $page="index";

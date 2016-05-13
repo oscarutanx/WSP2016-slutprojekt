@@ -6,8 +6,8 @@
  * Time: 12:41
  */
 
-$username = "projectx";
-$password = "projecty";
+$username = "projektx";
+$password = "projekty";
 $database="projekt";
 $host="localhost";
 $dsn = "mysql:host=$host;dbname=$database;charset=utf8";

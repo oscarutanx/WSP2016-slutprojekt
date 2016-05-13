@@ -1,5 +1,7 @@
-
-.oekr
-{
-
+footer {
+    display: block;
+    margin-top: 3em;
+    text-align: center;
+    color: #999;
 }
+

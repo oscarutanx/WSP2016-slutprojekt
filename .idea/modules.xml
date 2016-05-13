@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/WSP2016-slutprojekt.iml" filepath="$PROJECT_DIR$/.idea/WSP2016-slutprojekt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/figybookwsp.iml" filepath="$PROJECT_DIR$/.idea/figybookwsp.iml" />
     </modules>
   </component>
 </project>

@@ -1,7 +1,9 @@
-footer {
-    display: block;
-    margin-top: 3em;
-    text-align: center;
+#footer {
+    float: left;
+    text-align:center;
+    width:100%;
     color: #999;
+    position: fixed;
+    bottom: 0;
 }
 

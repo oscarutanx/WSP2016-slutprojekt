@@ -1,11 +1,16 @@
+
+
+
+
 <?php
+
 session_start();
-require_once ("details.php");
-if (isset($_POST["inputEmail"])&&isset($_POST["inputEmail"]))
+require_once("details.php");
+if (isset($_POST["InputEmail"])&&isset($_POST["InputEmail"]))
 {
-    $epost = filter_input(INPUT_POST, 'inputEmail', FILTER_SANITIZE_SPECIAL_CHARS);
+    $epost = filter_input(INPUT_POST, 'InputEmail', FILTER_SANITIZE_SPECIAL_CHARS);
     //filtrerar bort oönskade tecken och liknande för att motverka XSS
-    $pass = $_POST["inputPW"];
+    $pass = $_POST["InputPW"];
     $dbh=new PDO($dsn,$username,$password);
 
     //kollar med select om det finns någon rad där inloggnignsdetaljerna finns med och om den inte får framma några
@@ -37,4 +42,3 @@ if (isset($_POST["inputEmail"])&&isset($_POST["inputEmail"]))
 
 
 }
-

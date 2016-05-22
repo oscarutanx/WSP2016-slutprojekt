@@ -38,7 +38,7 @@ if(isset($_POST["firstname"]) && isset($_POST["surname"]) && isset($_POST["email
     $user = $_POST["user"];
     $hash = password_hash($pw, PASSWORD_DEFAULT);
 
-    $result = $dbh->exec("INSERT INTO users (username,firsname,surname,email,password) VALUES ('$user','$fname','$sname','$email', '$hash')");
+    $result = $dbh->exec("INSERT INTO users (username,firsname,surname,email,password) VALUES ('$user','$fname','$sname','$email', '$pw')");
     if (!$result) {
         print_r($dbh->ErrorInfo());
     } else {
